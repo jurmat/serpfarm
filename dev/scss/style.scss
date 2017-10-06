@@ -33,9 +33,23 @@ body{
 		font-weight: 500;
 		margin-bottom: 20px;
 	}
-	.info__text{
-		font-size: 12px;
+	.info{
 		margin-bottom: 30px;
+		.info__text{
+			font-size: 12px;
+			margin-bottom: 30px;
+		}
+		.vector-img{
+			margin-bottom: 30px;
+		}
+		.vector-text{
+			text-indent: 1.5em;
+			font-size: 14px;
+			font-weight: bold;
+			padding-left: 35px;
+			&:after{
+			}
+		}
 	}
 }
 
