@@ -30,8 +30,10 @@ body{
 	.title{
 		font-size: 30px;
 		color: #c03221;
+		font-family: 'roboto';
 		font-weight: 500;
 		margin-bottom: 20px;
+		letter-spacing: -0.06em;
 		span{
 			border-bottom: solid #c03221 4px;
 		}
@@ -78,5 +80,22 @@ body{
 		font-weight: bold;
 		color: #c03221;
 	}
-}
 
+}
+.Catching__title{
+	padding-top: 35px;
+}
+.Catching__subtitle{
+	text-align: left;
+	padding: 10px 0 0 35px;
+	.subtitle__text{
+		padding: 0 0 0 30px;
+		font-family: 'roboto';
+		font-size: 12px;
+		font-weight: normal;
+		span{
+		font-weight: bold;
+		color: #c03221;
+		}
+	}
+}
