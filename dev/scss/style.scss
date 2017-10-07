@@ -32,6 +32,9 @@ body{
 		color: #c03221;
 		font-weight: 500;
 		margin-bottom: 20px;
+		span{
+			border-bottom: solid #c03221 4px;
+		}
 	}
 	.info{
 		margin-bottom: 30px;
@@ -50,6 +53,30 @@ body{
 			&:after{
 			}
 		}
+	}
+}
+.icon{
+		text-align: center;
+	}
+.intro{
+	padding: 30px 0 0 0;
+	font-family: 'roboto';
+	font-size: 12px;
+}
+.subtitle{
+	padding: 15px 0 0 0;
+	text-align: right;
+	font-size: 16px;
+	font-family: 'proxima_nova';
+	font-weight: bold;
+}
+.text{
+	font-family: 'roboto';
+	font-size: 12px;
+	padding: 10px 0 0 35px;
+	span{
+		font-weight: bold;
+		color: #c03221;
 	}
 }
 

@@ -23,7 +23,7 @@
     src: url('roboto-regular-webfont.woff2') format('woff2'),
          url('roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: regular;
+    font-style: normal;
 
 }
 @font-face {
